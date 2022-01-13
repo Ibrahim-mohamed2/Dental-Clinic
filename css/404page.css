@@ -1,0 +1,91 @@
+/* start error */
+.error{
+    padding-top: 200px;
+    padding-bottom: 500px;
+    position: relative;
+}
+.error .content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   padding: 20px;
+}
+.error .content h2
+{
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+@media (max-width:767px) {
+  .error .content h2
+  {
+      font-size: 70px;
+  }  
+}
+.error .content h4
+{
+    color: #0dcaf0;
+    margin-bottom: 30px;
+    
+}
+.error .content p
+{
+    margin-bottom: 30px;
+}
+.error .content input
+{
+    padding: 15px 30px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    background-color: #edf2f3;
+    outline: 0;
+    border: 1px solid #0dcaf0;
+    color:black ;
+    width: 100%;
+}
+@media (max-width:600px) {
+  .error .content input
+  {
+      width: 100%;
+  }  
+}
+.error .content input:focus
+{
+    outline: 0;
+    box-shadow: none;
+}
+
+.error .content input::placeholder
+{
+    color: black;
+}
+.error .content .a a
+{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #0dcaf0;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid #0dcaf0;
+}
+@media (max-width:600px) {
+  .error .content .a a
+  {
+    padding: 10px;
+  }  
+}
+.error .content .a a:hover
+{
+    background-color: white;
+    color: #0dcaf0;
+}
+
+
+
+
+
+/* end error */

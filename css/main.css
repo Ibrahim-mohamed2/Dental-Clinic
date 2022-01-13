@@ -1,0 +1,1016 @@
+ body{
+     font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+ }
+ 
+ 
+/* start button to top */
+.button i
+{
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    font-size: 30px;
+    color: white;
+    background-color: #2caee2;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+    z-index: 3;
+
+}
+
+/* end button to top */
+
+
+/* start navbar and landing */
+
+.landing .navbar
+{
+    position: fixed;
+    width: 100%;
+        background-color:#2caee2;
+        z-index: 999;
+
+}
+.landing .navbar-toggler 
+{
+     background-color: #2398be;
+
+}
+.landing .navbar-toggler .navbar-toggler-icon
+{
+  background-color: white !important;
+  border-radius: 50%;
+  
+    
+}
+.landing .navbar-brand
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.landing .navbar-brand span
+{
+    color: #0d4e64;
+}
+.landing .navbar-brand:hover
+{
+    color: #013d52;
+}
+.landing .navbar-nav .nav-item .nav-link
+{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+        font-weight: bold;
+        font-size: 18px;
+}
+.landing .navbar-nav .nav-item .nav-link.active
+{
+    color: #013d52;
+}
+.landing .dropdown-menu 
+{
+    padding: 10px;
+}
+.landing .dropdown-menu li
+{
+    margin: 5px;
+}
+.landing .dropdown-menu li .dropdown-item
+{
+    color:#78a8b8 ;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.landing .dropdown-menu li .dropdown-item:hover
+{
+    background-color: white;
+    color: #013d52;
+    font-weight: bold;
+}
+.landing .icon .fa-moon
+{
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.landing .icon .fa-sun
+{
+    display: none;
+      color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+@media (max-width:992px) {
+   .landing .icon 
+   {
+      margin-top: 10px;
+      text-align: center;
+   } 
+}
+
+/* end navbar and landing */
+
+/* start landing */
+.landing
+{
+position: relative;
+
+}
+.landing .img img
+{
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    
+}
+@media (max-width:600px) {
+    
+}
+
+.landing .overlay
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   opacity: .3;
+}
+.landing .landing-info
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 1;
+}
+.landing .landing-info span
+{
+    color: #2caee2;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.landing .landing-info h3
+{
+margin-top: 20px;
+margin-bottom: 20px;
+color: white;
+font-size: 60px;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.landing .landing-info h4
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+@media (max-width:832px) {
+  .landing .landing-info h3
+  {
+      font-size: 40px;
+      width: 100%;
+  } 
+  .landing .landing-info h4
+  {
+        font-size: 30px;
+      width: 100%;
+  } 
+}
+@media (max-width:600px) {
+    .landing .landing-info h3
+    {
+        font-size: 30px;
+    }
+      .landing .landing-info h4
+      {
+          font-size: 20px;
+      }
+}
+.landing .landing-info button
+{
+    padding: 15px 30px;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 20px;
+   background-color:transparent;
+   color: white;
+   text-transform: capitalize;
+   font-size: 17px;
+   
+}
+@media (max-width:600px) {
+    .landing .landing-info button
+    {
+            padding: 10px 20px;
+
+    }
+}
+.landing .landing-info button:hover
+{
+    background-color: white;
+    color: #2caee2;
+}
+/* end landing */
+
+/* start quality */
+.quality
+{
+    padding: 20px;
+    
+}
+.quality .col-md
+{
+    background-color: white;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 30px;
+position: relative;    
+top: -50px;
+}
+@media (max-width:600px) {
+    .quality .col-md
+    {
+        margin: 5px auto;
+    }
+}
+.quality .col-md .info
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.quality .col-md .info i
+{
+    background-color: #eee;
+        color: #2caee2;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 50px;
+    
+}
+.quality .col-md .info i:hover
+{
+    background-color: #2caee2;
+    color: white;
+
+}
+.quality .col-md .info .con
+{ 
+    margin-bottom: 20px;
+}
+.quality .col-md .info .p
+{
+    color: rgb(182, 178, 178);
+    margin-bottom: 7px;
+}
+.quality .col-md .info a
+{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+.quality .col-md .info a:hover
+{
+    color: #2caee2;
+    transition: .3s;
+}
+
+/* end quality */
+
+
+/* start about us */
+.about
+{
+  
+    position: relative;
+    padding: 100px;
+
+}
+.about .left{
+    margin-bottom: 20px;
+}
+.about .left span
+{
+    color: #2398be;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about .left p
+{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-transform: capitalize;
+    
+}
+@media (max-width:768px) {
+  .about .left p
+  {
+      width: 100%;
+  }  
+}
+.about .right .f
+{
+    margin-bottom: 30px;
+    color: rgb(139, 138, 138);
+}
+.about .right .s
+{
+    margin-bottom: 30px;
+   color: rgb(139, 138, 138);
+
+}
+
+.about button
+{
+    padding: 15px 30px;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 20px;
+   background-color:transparent;
+   color: white;
+   text-transform: capitalize;
+   font-size: 17px;
+   background-color: #2caee2;
+   
+}
+@media (max-width:600px) {
+    .about button
+    {
+            padding: 10px 20px;
+
+    }
+}
+.about button:hover
+{
+    background-color: white;
+    color: #2caee2;
+}
+/* end about us */
+
+/* start choose */
+.choose
+{
+    padding: 30px;
+}
+.choose .left
+{
+    padding: 20px;
+}
+.choose .left span
+{
+color: #2caee2;
+}
+.choose .left h2
+{
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #2caee2;
+}
+.choose .left .col-lg-2 i
+{
+    background-color: white;
+    color: #2caee2;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.choose .left .col-lg-2 i:hover
+{
+    color: white;
+    background-color: #2caee2;
+    transition: 1s;
+}
+.choose .left .col-lg-10 a
+{
+text-decoration: none;
+padding:10px 0;
+color:  black;
+font-size: 20px;
+font-weight: bold;
+text-transform: capitalize;
+}
+.choose .left .col-lg-10 a:hover
+{
+    color: #2caee2;
+}
+.choose .left .col-lg-10 p
+{
+    margin-top: 20px;
+    color: rgb(192, 188, 188);
+}
+.choose .right 
+{
+    background-size: cover;
+    background-image: url(../images/choose.jpg);
+
+}
+/* end choose */
+
+
+/* start services */
+.services
+{
+    padding-top: 100px;
+}
+.services .info
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.services .info p
+{
+    color: #2caee2;
+    font-size: 15px;
+}
+.services .info h3
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #2caee2;
+}
+.services .col-lg-6 
+{
+    padding: 30px;
+}
+.services .col-lg-6 .col-lg-2 i
+{
+    color: #2caee2;
+    background-color: #F4F6F9;
+    padding: 23px;
+    font-size: 20px;
+    border-radius: 10px;
+     margin-bottom: 15px;
+    
+}
+.services .col-lg-6 .row
+{
+    margin-bottom: 30px;
+}
+.services .col-lg-6 .col-lg-2 i:hover
+{
+    color: white;
+    background-color: #2caee2;
+   
+}
+.services .col-lg-6 .col-lg-10 a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+  color: black;
+  font-size: 22px;
+}
+.services .col-lg-6 .col-lg-10 a:hover
+{
+    color:#2caee2;
+}
+.services .col-lg-6 .col-lg-10 p
+{
+    color: rgb(192, 188, 188);
+    margin-top: 10px;
+}
+/* end services */
+
+/* start testmonial */
+.testmonial
+{
+    position: relative;
+   padding-top: 120px;
+   padding-bottom: 120px;
+  background-size: cover;
+  width: 100%;
+    margin-top: 100px;
+  
+    background-image: url(../images/testmonial.jpg);
+}
+.testmonial .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+}
+.testmonial .col-lg-3
+{
+    margin-bottom: 60px;
+}
+.testmonial .col-lg-3 i
+{
+font-size: 40px;
+z-index: 8;
+color: #19a4db;
+margin-bottom: 20px;
+
+}
+.testmonial:hover .col-lg-3 i
+{
+    position: relative;
+    bottom: 6px;
+        transition :bottom 2s;
+
+}
+
+.testmonial .col-lg-3 .counter
+{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.testmonial .col-lg-3 span
+{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+/* end testmonial */
+
+/* start blog */
+.blog
+{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.blog .col-lg-4
+{
+    margin-bottom: 50px;
+}
+.blog .info
+{
+    display: block;
+    text-align: center;
+}
+.blog .info span
+{
+    color: #2caee2;
+    text-transform: capitalize;
+}
+.blog .info h3
+{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+        color: #2caee2;
+
+}
+
+.blog .first img
+{
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     margin-bottom: 20px;
+}
+.blog .second
+{
+    margin-bottom: 15px;
+}
+.blog .second a
+{
+    color: #2caee2;
+    text-decoration: none;
+    text-transform: capitalize;  
+}
+.blog .third
+{
+    margin-bottom: 15px;
+
+}
+.blog .third a
+{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.blog .third a:hover
+{
+    color: #2caee2;
+    transition: .2s;
+}
+.blog i
+{
+    color: #2caee2;
+    font-size: 15px;
+}
+.blog .four
+{
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    text-transform: capitalize;
+}
+.blog .four:hover
+{
+    color: #2caee2;
+}
+
+/* end blog */
+
+/* start an appointment */
+.appointment
+{
+    background-image: url(../images/appointment.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+}
+.appointment .overlay
+{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .7;
+}
+.appointment .left
+{
+    z-index: 3;
+    margin-bottom: 70px;
+}
+.appointment .left span
+{
+    color: #2caee2;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.appointment .left h3
+{
+    color: white;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.appointment .left p
+{
+    color: #d5d6d8;
+}
+.appointment .left button
+{
+    padding: 15px 30px;
+    border-radius: 25px;
+    background-color: #2caee2;
+    color: white;
+    text-transform: capitalize;
+border: 1px solid #2caee2;
+font-weight: bold;
+}
+.appointment .left button:hover
+{
+        background-color: transparent;
+        color: #2caee2;
+        
+}
+
+.appointment .right
+{
+    background-color: white;
+    
+    border-radius: 30px;
+}
+.appointment .right .needs-validation
+{
+padding: 40px 15px;
+}
+.appointment .right .needs-validation input
+{
+    background-color: #F4F6F9;
+    border: none;
+    margin-bottom: 20px;
+    
+}
+.appointment .right .needs-validation #validationTooltip04
+{
+     background-color: #F4F6F9;
+    border: none;
+    
+}
+.appointment .right .needs-validation option
+{
+    background-color: #eee;
+    color:rgb(177, 175, 175)
+}
+.appointment .right .btn
+{
+          padding: 15px 30px;
+    border-radius: 25px;
+    background-color: #2caee2;
+    color: white;
+    text-transform: capitalize;
+border: 1px solid #2caee2;
+font-weight: bold;
+        margin-top: 10px;
+        margin-left: auto;
+     display: block;
+        border: 1px solid #2caee2;
+        
+}
+.appointment .right .btn:hover
+{
+
+background-color: white;
+color: #2caee2;
+}
+/* end an appointment */
+
+/* start cal */
+.cal{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.cal .info
+{
+    display: block;
+    text-align: center;
+}
+.cal .info span
+{
+    color: #2caee2;
+    text-transform: capitalize;
+}
+.cal .info h3
+{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    color: #2caee2;
+    
+}
+
+.cal .owl-carousel .item .box
+{
+    padding: 15px;
+    
+    border: 1px solid rgb(235, 227, 227);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.cal .owl-carousel .item .box i
+{
+    color: #2caee2;
+    font-size: 20px;
+}
+
+.cal .owl-carousel .item .box .one
+{
+    font-weight: bold;
+}
+.cal .owl-carousel .item .box .two
+{
+    color: #d6d7d8;
+}
+.cal .owl-carousel .item .col
+{
+    margin-top: 10px;
+}
+.cal .owl-carousel .item .col img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cal .owl-carousel .item .col h5
+{
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cal .owl-carousel .item .col span
+{
+    color: rgb(151, 150, 150);
+    text-transform: capitalize;
+}
+.cal .owl-theme .owl-dots .owl-dot.active span
+{
+    background-color: #2caee2;
+}
+/* end cal */
+
+/* start footer */
+.footer
+{
+    background-color: rgb(51, 49, 49);
+    padding: 40px;
+}
+.footer .one a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer .one p
+{
+    color: rgb(204, 204, 204);
+    margin-top: 20px;
+}
+.footer .one ul li i
+{
+    color: rgb(204, 204, 204);
+    margin-right: 20px;
+}
+.footer .one ul li a
+{
+        color: rgb(204, 204, 204);
+    font-size: 15px;
+}
+.footer .one ul li:hover a,
+.footer .one ul li:hover i
+{
+    color: #2caee2;
+}
+.footer .two h3
+{
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 23px;
+
+}
+.footer .two ul li
+{
+    margin-bottom: 10px;
+}
+.footer .two ul li a
+{
+    text-decoration: none;
+        color: rgb(204, 204, 204);
+        text-transform: capitalize;
+       
+}
+
+.footer .two ul li:hover a{
+color: #2caee2;
+}
+
+.footer .three h3
+{
+   color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 23px; 
+}
+.footer .three ul li{
+    margin-bottom: 10px;
+}
+
+.footer .three ul li a{
+      text-decoration: none;
+        color: rgb(204, 204, 204);
+        text-transform: capitalize;
+}
+.footer .three ul li:hover a{
+    color: #2caee2;
+}
+.footer .four h3
+{
+ color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 23px; 
+}
+.footer .four p
+{
+            color: rgb(204, 204, 204);
+            margin-bottom: 10px;
+}
+.footer .four form 
+{
+    display: block;
+    text-align: center;
+}
+.footer .four form .inp
+{
+padding: 10px 20px;
+border: 1px solid #2caee2;
+border-radius: 20px;
+margin-bottom: 15px;
+width: 100%;
+}
+.footer .four form .inp
+{
+outline: none;
+}
+.footer .four form #b
+{
+   padding: 10px 20px;
+border: 1px solid #2caee2;
+border-radius: 20px; 
+width: 100%;
+background-color: #2caee2;
+color: white;
+text-transform: capitalize;
+}
+.footer .four form #b:hover
+{
+    background-color: transparent;
+    color: #2caee2;
+    transition: 1s;
+}
+.footer .col-lg-3
+{
+    margin-bottom: 25px;
+}
+.footer .end .left
+{
+            color: rgb(204, 204, 204);
+            margin-bottom: 20px;
+}
+.footer .end .left a{
+    color: #2caee2;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.footer .end .right 
+{
+display: block;
+text-align: right;
+
+}
+@media (max-width:992px) {
+   .footer .end .right 
+   {
+       display: block;
+text-align: center;
+   } 
+}
+.footer .end .right ul li
+{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    width:40px ;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+
+    
+}
+.footer .end .right ul li a
+{
+    color: #2caee2
+    ;
+    font-size: 15px;
+}
+.footer .end .right ul li:hover  
+{
+  
+background-color: #2caee2;
+    
+}
+.footer .end .right ul li:hover a  
+{
+  
+color: white;    
+}
+/* end footer */

@@ -1,0 +1,89 @@
+
+
+/* start department */
+.department
+{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.department .info
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.department .info span
+{
+    text-transform: capitalize;
+    color: #2caee2;
+}
+.department .info h3
+{
+      font-size: 40px;
+      text-transform: capitalize;
+      color: #2caee2;
+    
+}
+.department .col-lg-4
+{
+    margin-bottom: 20px;
+}
+.department .col-lg-4 .body
+{
+padding: 10px;
+background-color: #F4F6F9;
+border-radius: 10px;
+}
+.department .col-lg-4 .body img
+{
+    background-size: cover;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    height: 250px;
+    cursor: pointer;
+}
+.department .col-lg-4 .body .top
+{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: .4s;
+    font-size: 20px;
+}
+.department .col-lg-4 .body .top:hover
+{
+    color: #2caee2;
+}
+.department .col-lg-4 .body .row .left a
+{
+text-decoration: none;
+color: #666;
+transition: .4s;
+}
+.department .col-lg-4 .body .row .left a:hover
+{
+    color:#2caee2;
+}
+.department .col-lg-4 .body .row .right a
+{
+background-color: white;
+padding: 10px;
+border-radius: 50%;
+}
+.department .col-lg-4 .body .row .right a i
+{
+    color: #666;
+    transition: .4s;
+}
+.department .col-lg-4 .body .row .right a i:hover
+{
+    color:#2caee2;
+}
+/* end department */
+
+

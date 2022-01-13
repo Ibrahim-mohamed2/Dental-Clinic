@@ -1,0 +1,378 @@
+
+.landing-about
+{
+    position: relative;
+   
+}
+.landing-about .overlay
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: .4;
+
+}
+.landing-about img
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+
+    
+
+}
+.landing-about .info
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+
+.landing-about .info h2
+{
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 70px;
+    display: block;
+    text-align: center;
+}
+@media (max-width:767px) {
+   .landing-about .info h2
+   {
+       font-size: 50px;
+   } 
+}
+@media (max-width:600px) {
+    .landing-about .info .nav
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.landing-about .info .nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 10px;
+}
+.landing-about .info .nav li:hover a
+{
+color: #2caee2;    
+}
+.landing-about .info .nav li i
+{
+    color: white;
+}
+/* start image */
+.img img
+{
+    max-width: 80%;
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+/* end image */
+
+/* start medic */
+.medic
+{
+    margin-top: 40px;
+    padding: 20px;
+}
+.medic .left span
+{
+    color: #2caee2;
+    text-transform: capitalize;
+}
+.medic .left h3
+{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 91%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+@media (max-width:767px) {
+    .medic .left h3
+    {
+        font-size: 25px;
+        
+    }
+}
+
+.medic .right p
+{
+    color: rgb(196, 194, 194);
+}
+.medic .right button
+{
+    padding: 15px 30px;
+    border: 1px solid #2caee2;
+    background-color: #2caee2;
+    color: white;
+    border-radius: 30px;
+    text-transform: capitalize;
+
+}
+.medic .right button:hover
+{
+    background-color: white;
+    color: #2caee2;
+}
+/* end medic */
+
+
+/* start core */
+
+.core
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.core .info
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.core .info span
+{
+    text-transform: capitalize;
+    color: #2caee2;
+}
+.core .info h3
+{
+      font-size: 40px;
+          color: #2caee2;
+
+    
+}
+
+.core .col-lg-4
+{
+    margin-bottom: 25px;
+}
+.core .col-lg-4 .icon i
+{
+    color: #2caee2;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.core .col-lg-4 h4
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+
+.core .col-lg-4 h4:hover
+{
+    color: #2caee2;
+
+}
+.core .col-lg-4 p
+{
+    color: rgb(187, 186, 186);
+}
+
+/* end core */
+
+
+/* start advantages */
+.advantages
+{
+    padding-top: 150px;
+}
+.advantages .left
+{
+    margin-bottom: 30px;
+}
+.advantages .left span
+{
+ text-transform: capitalize;
+    color: #2caee2;
+}
+.advantages .left h3
+{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.advantages .left p
+{
+    color: rgb(187, 186, 186);
+}
+.advantages ul li i
+{
+    color: #2caee2;
+    margin-right: 10px;
+} 
+.advantages ul li{
+    margin-bottom: 10px;
+}
+.advantages .right img
+{
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+/* end advantages */
+
+
+
+/* start static */
+.static
+{
+    background-image: url(../images/static.jpg);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 100px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.static .overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .6;
+}
+.static .info
+{
+    padding-bottom: 50px;
+    z-index: 3000;
+    position: relative;
+
+}
+.static .info span
+{
+    color: #2caee2;
+    text-transform: capitalize;
+    z-index: 55;
+    letter-spacing: 2px;
+}
+.static .info h3
+{
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.static .col-lg-6 p
+{
+    color: #c5c5c5;
+    margin-bottom: 40px;
+}
+.static button
+{
+    border: 1px solid #2caee2;
+    padding: 15px 30px;
+    border-radius: 30px;
+    z-index: 88;
+    position: relative;
+    background-color: #2caee2;
+    color: white;
+    text-transform: capitalize;
+}
+.static button:hover
+{
+    background-color: white;
+    color: #2caee2;
+}
+
+/* end static */
+
+
+/* start our team */
+.our-team
+{
+   padding-top: 100px;
+   padding-bottom: 100px;
+   position: relative;
+}
+.our-team .info
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our-team .info span
+{
+    text-transform: capitalize;
+    color: #2caee2;
+}
+.our-team .info h3
+{
+    color: #2caee2;
+      font-size: 40px;
+      text-transform: capitalize;
+      
+    
+}
+.our-team .col-lg-3
+{
+    transition: bottom .5s;
+     bottom: 0; 
+
+}
+.our-team .col-lg-3:hover
+{
+   position: relative;
+   bottom: 5px;
+   cursor: pointer;
+    
+}
+
+.our-team .col-lg-3 img
+{
+    background-size: cover;
+    width:100%;
+    height: 300px;
+     background-color:rgba(130, 115, 252, .05) ;
+    border-radius: 20px;
+    
+    
+
+}
+.our-team .col-lg-3 .card-body
+{
+
+display: block;
+text-align: center;
+}
+.our-team .col-lg-3 .card-body a
+{
+    text-decoration: none;
+    color: #2caee2;
+    text-transform: capitalize;
+}
+.our-team .col-lg-3 .card-body h5
+{
+    color: #c5c5c5;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+/* end oudr team */
